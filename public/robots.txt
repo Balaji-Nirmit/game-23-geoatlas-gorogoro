@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://geoatlas.games/sitemap.xml
+Sitemap: https://geoatlas.app/sitemap.xml
