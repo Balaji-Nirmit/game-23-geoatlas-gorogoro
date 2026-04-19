@@ -99,6 +99,16 @@ export default function App() {
       'south korea': ['south korea', 'republic of korea', 'korea', 'korea, republic of'],
       'russia': ['russia', 'russian federation', 'russia'],
       'china': ['china', 'peoples republic of china'],
+      'czech republic': ['czech republic', 'czechia'],
+      'netherlands': ['netherlands', 'the netherlands', 'holland'],
+      'germany': ['germany', 'deutschland'],
+      'france': ['france', 'french republic'],
+      'ukraine': ['ukraine', 'ukraina'],
+      'turkey': ['turkey', 'türkiye'],
+      'south africa': ['south africa', 'republic of south africa'],
+      'philippines': ['philippines', 'the philippines'],
+      'vietnam': ['vietnam', 'viet nam'],
+      'saudi Arabia': ['saudi arabia', 'kingdom of saudi arabia'],
     };
 
     const targetNames = aliases[countryName] || [countryName];
@@ -291,6 +301,10 @@ export default function App() {
                     'uk': ['united kingdom', 'uk', 'great britain', 'england'],
                     'uae': ['united arab emirates', 'uae'],
                     'south korea': ['south korea', 'republic of korea', 'korea'],
+                    'czech republic': ['czech republic', 'czechia'],
+                    'netherlands': ['netherlands', 'the netherlands'],
+                    'turkey': ['turkey', 'türkiye'],
+                    'philippines': ['philippines', 'the philippines'],
                   };
                   const targetNames = aliases[countryName] || [countryName];
                   const p = f.properties;
@@ -452,12 +466,12 @@ export default function App() {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="absolute bottom-15 sm:bottom-8 left-0 right-0 z-40 flex justify-center px-4 pointer-events-none"
+            className="absolute bottom-4 sm:bottom-8 left-0 right-0 z-40 flex justify-center px-4 pointer-events-none"
           >
             <motion.div 
               initial={{ y: 50 }}
               animate={{ y: 0 }}
-              className="bg-white/95 backdrop-blur-2xl p-2 sm:p-6 rounded-[1.5rem] sm:rounded-[2.5rem] shadow-2xl border border-white max-w-sm sm:max-w-md w-full flex flex-col items-center gap-4 pointer-events-auto"
+              className="bg-white/95 backdrop-blur-2xl p-4 sm:p-6 rounded-[2.5rem] shadow-2xl border border-white max-w-sm sm:max-w-md w-full flex flex-col items-center gap-4 pointer-events-auto"
             >
               <div className="flex items-center justify-between w-full gap-2">
                 <div className="text-center flex-1">
